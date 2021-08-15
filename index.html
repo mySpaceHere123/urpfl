@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/logo3.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ujjwal | Portfolio home page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo3.png"
+          alt="ur logo"
+          class="nav__logo"
+          id="logo"
+          designer="Ujjwal"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Achievements</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Inspirations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Leave a Message</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Hello, I am <br />
+          <span class="highlight">Ujjwal Raj</span>
+          <br />
+          , IIT Kharagpur
+        </h1>
+        <h4>El Que No Arriesga, No Gana</h4>
+        <button class="btn--text btn--scroll-to">
+          Know me more' &DownArrow;
+        </button>
+        <img src="img/me.jpg" class="header__img" alt="Minimalist bank items" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">About me</h2>
+        <h3 class="section__header">
+          I’m trying to manage myself, not just my portfolio.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/js.jpg"
+          data-src="img/js.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">print(f'Fluent in Python')</h5>
+          <p>
+            Python is my favourite programming language. Worked with mini
+            projects including scraping, data handling, jsons, and several third
+            party libraries.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Javascript development</h5>
+          <p>
+            I have recently got into Javascript development. After exploring the
+            frontend development, since logic building programming is what I
+            like, Javascript is something I prefer. Still exploring the backend
+            journey.
+          </p>
+        </div>
+        <img
+          src="img/js3.jpg"
+          data-src="img/js3.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/phy-pic2.jpg"
+          data-src="img/phy-pic2.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">I am a physics enthusiast.</h5>
+          <p>
+            Learning and teaching someone physics has always been fun to me.
+            Casting the world, Forging the campus, Shaping the universe, Welding
+            the rest of all branches, Bcoz, We are the Men, We are the machine,
+            and we are Mechanical Engineer’s
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use href="img/linuxlogo.png"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">I'm a Linux fanatic</h5>
+          <p>
+            I love working/tweaking with Linux. Arch is my favourite distro. I
+            believe minimal is best.
+          </p>
+        </div>
+        <img
+          src="img/arch-pic2.jpg"
+          data-src="img/arch-pic2.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Achievements and involvements</h2>
+        <h3 class="section__header">
+          A little progress each day adds up to big results.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="
+              btn
+              operations__tab operations__tab--1 operations__tab--active
+            "
+            data-tab="1"
+          >
+            <span>01</span>Aerial Robotics Kharagpur
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Academic History
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Prodex, IIT Kharagpur
+          </button>
+        </div>
+        <div
+          class="
+            operations__content
+            operations__content--1
+            operations__content--active
+          "
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Embedded Team member</h5>
+          <p>
+            ARK is an enthusiastic group of students working towards building
+            autonomous aerial vehicles, based at Indian Institute of Technology
+            Kharagpur.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">An excellent Academic History</h5>
+          <p>
+            I have a good record of past Academic performance. From good
+            performance in olympiads to being a State Topper in science stream
+            in the 12th board examination, was a journey to learn from.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Coming soon.....</h5>
+          <p>Coming soon.....</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Inspirations</h2>
+        <h3 class="section__header">
+          Footprints, that perhaps another, Sailing o’er life’s solemn main
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Just keep calm</h5>
+            <blockquote class="testimonial__text">
+              I believe in giving more than 100% on the field, and I don't
+              really worry about the result if there's great commitment on the
+              field. That's victory for me.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user1.png" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">MS Dhoni</h6>
+              <p class="testimonial__location">Captain cool</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">The Golden Rules</h5>
+            <blockquote class="testimonial__text">
+              If four things are followed - having a great aim, acquiring
+              knowledge, hard work, and perseverance - then anything can be
+              achieved.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/kalam.png" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Dr. kalam</h6>
+              <p class="testimonial__location">Missile Man of India</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Be the best version</h5>
+            <blockquote class="testimonial__text">
+              अच्छी तरह सोच कर देखें आपके अंदर क्या गुण हैं ऐसी घटनाओं को याद
+              करें जब आप थोड़ी सी भी सफलता मिली हो समय लेते हुए अच्छी तरह अपने
+              मन में मैं सोचा और वैसे 100 गुणों और घटनाओं को एक कागज पर लिखे।
+              फिर उनमें से 10 सबसे बेहतर को अलग कर ले
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/anandsir.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Anand Sir</h6>
+              <p class="testimonial__location">Patna, Bihar</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">Work in progress!</h3>
+      </div>
+      <button class="btn btn--show-modal">Leave a message</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/logo3.png" alt="Logo" class="footer__logo" />
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Leave message <br />
+        <span class="highlight">Fill the details first!</span>
+      </h2>
+      <form class="modal__form">
+        <label>Name</label>
+        <input type="text" />
+        <label>Phone:</label>
+        <input type="number" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
